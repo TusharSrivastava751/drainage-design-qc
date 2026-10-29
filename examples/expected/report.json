@@ -1,0 +1,58 @@
+{
+  "demo": true,
+  "method": "rational-and-full-circular-manning-v1",
+  "criteria": {
+    "minimum_cover_m": 0.9,
+    "full_flow_velocity_min_m_s": 0.6,
+    "full_flow_velocity_max_m_s": 3.0
+  },
+  "pipes_checked": 3,
+  "pipes_with_findings": 2,
+  "results": [
+    {
+      "pipe_id": "DEMO-P01",
+      "slope_m_m": 0.01,
+      "minimum_endpoint_cover_m": 1.3,
+      "demand_m3_s": 0.1625,
+      "full_flow_capacity_m3_s": 0.6140115432891593,
+      "full_flow_velocity_m_s": 2.171621605110066,
+      "demand_capacity_ratio": 0.2646530049411028,
+      "findings": []
+    },
+    {
+      "pipe_id": "DEMO-P02",
+      "slope_m_m": 0.004999999999999952,
+      "minimum_endpoint_cover_m": 0.34000000000000286,
+      "demand_m3_s": 0.4799999999999999,
+      "full_flow_capacity_m3_s": 0.0683777621049601,
+      "full_flow_velocity_m_s": 0.9673474521392074,
+      "demand_capacity_ratio": 7.019826113396315,
+      "findings": [
+        "COVER_BELOW_DEMO_LIMIT",
+        "DEMAND_EXCEEDS_FULL_FLOW_REFERENCE"
+      ]
+    },
+    {
+      "pipe_id": "DEMO-P03",
+      "slope_m_m": -0.005000000000000071,
+      "minimum_endpoint_cover_m": 1.2699999999999971,
+      "demand_m3_s": 0.05,
+      "full_flow_capacity_m3_s": null,
+      "full_flow_velocity_m_s": null,
+      "demand_capacity_ratio": null,
+      "findings": [
+        "NON_POSITIVE_SLOPE"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "file": "pipes.csv",
+      "sha256": "58aecfc833d6519ec484636273d1ebb280eeaeeaa45bcb8b142a5070203f5059"
+    },
+    {
+      "file": "demo_criteria.json",
+      "sha256": "39650d459f48b59e8baaaab5b662e6e0f042bf08d11f27326c63e877a90c256e"
+    }
+  ]
+}

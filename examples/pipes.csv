@@ -1,0 +1,4 @@
+pipe_id,length_m,diameter_mm,outside_diameter_mm,invert_up_m,invert_down_m,ground_up_m,ground_down_m,manning_n,catchment_ha,runoff_coefficient,intensity_mm_hr
+DEMO-P01,50,600,700,100,99.5,102,101.5,0.013,1.2,0.65,75
+DEMO-P02,60,300,360,99.5,99.2,100.2,99.9,0.013,2.4,0.8,90
+DEMO-P03,40,450,530,99.2,99.4,101,101.2,0.013,0.6,0.5,60

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+reports/
+.env
+.env.*
+private/
+*.dwg
+*.dxf
+*.las
+*.laz

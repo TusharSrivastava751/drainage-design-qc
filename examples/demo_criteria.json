@@ -1,0 +1,5 @@
+{
+  "minimum_cover_m": 0.9,
+  "full_flow_velocity_min_m_s": 0.6,
+  "full_flow_velocity_max_m_s": 3.0
+}
